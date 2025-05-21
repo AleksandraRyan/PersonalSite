@@ -63,34 +63,8 @@ header a:hover {
   border: none;
 }
 
-section img {
-  border-radius: 5px;
-  max-width: 100%;
-}
-
-section {
-  max-width: 100%;
-  background-color: #191a1a;
-  display: grid;
-  grid-template-columns: 500px 500px 500px;
-  justify-content: center;
-  gap: 50px;
-  padding: 40px;
-}
-
-@media (min-width: 552px) {
+@media (min-width: 539px) {
   header {
     max-width: 100%;
-  }
-}
-
-@media (max-width: 1618px) {
-  section {
-    grid-template-columns: 500px 500px;
-  }
-}
-@media (max-width: 1073px) {
-  section {
-    grid-template-columns: 500px;
   }
 }
