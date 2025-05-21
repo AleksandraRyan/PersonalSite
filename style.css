@@ -62,3 +62,44 @@ header a:hover {
   background-color: #000;
   border: none;
 }
+
+/* Section */
+section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  background-color: black;
+  color: aliceblue;
+  /* height: 100%; */
+  padding: 50px;
+  font-family: 'Newsreader', sans-serif;
+  font-size: 17px;
+  line-height: 2;
+  font-style: italic;
+}
+
+section ol,
+dl,
+ul {
+  border: 1px solid red;
+  padding: 20px;
+}
+@media (min-width: 540px) {
+  header {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 525px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+
+  section ul,
+  ol {
+    list-style: none;
+  }
+}
