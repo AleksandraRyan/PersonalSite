@@ -111,3 +111,8 @@ section h2 {
     margin: 0 30px;
   }
 }
+@media (max-width: 400px) {
+  .gallery {
+    margin: 0px 5px;
+  }
+}
