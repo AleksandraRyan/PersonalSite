@@ -92,7 +92,7 @@ section h2 {
   border-radius: 5px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   .gallery {
     row-gap: 10px;
   }
