@@ -9,7 +9,7 @@ header {
     rgb(25, 159, 249) 98.9%
   );
   margin: auto;
-  max-width: 500px;
+  max-width: 100%;
 
   text-align: center;
   padding: 20px;
@@ -63,8 +63,37 @@ header a:hover {
   border: none;
 }
 
-@media (min-width: 539px) {
-  header {
-    max-width: 100%;
+section {
+  background-color: #000;
+}
+
+section h2 {
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Newsreader', sans-serif;
+  font-size: 35px;
+  margin-top: 0;
+  padding-top: 29px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-left: 2px solid #0987ef;
+  border-right: 2px solid #0987ef;
+  margin: 0 20px;
+}
+
+.gallery img {
+  width: 400px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+@media (max-width: 1300px) {
+  .gallery {
+    row-gap: 10px;
   }
 }
